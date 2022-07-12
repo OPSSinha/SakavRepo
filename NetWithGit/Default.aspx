@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>We welcome you
+        <div>We welcome you, dear friends
 
         </div>
     </form>
