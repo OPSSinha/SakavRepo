@@ -13,5 +13,24 @@ namespace NetWithGit
         {
 
         }
+
+        protected void btnOK_Click(object sender, EventArgs e)
+        {
+            if (txtUserName.Text=="admin")
+            {
+                if(txtPassword.Text=="admin")
+                {
+                    Response.Redirect("Default.aspx");
+                }
+                else
+                {
+                    Response.Write("Invalid Password");
+                }
+            }
+            else
+            {
+                Response.Write("Invalid User");
+            }
+        }
     }
 }
